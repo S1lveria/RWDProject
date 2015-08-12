@@ -2,10 +2,55 @@
 
 /* Global Content Formatting and Styles */
 
+body {
+  color:#318E33;
+  line-height: 1.5em;
+  font: 14px Arial, sans-serif;
+  background: #000 url(../img/background.jpg) repeat-x 0 0;
+}
 
+.page {
+  max-width: 980px;
+  margin: 0 auto;
+  position: relative;
+  background: transparent;
+}
 
+h1 {
+  font-size: 2em;
+  font-weight: normal;
+  color: #89DE8B;
+  margin: 0 0 .5em 0;
+}
 
+h2 {
+  font-size: 1.7em;
+  margin: 0 0 1em 0;
+}
 
+h3 {
+  font-size: 1.5em;
+  margin: 0 0 1em 0;
+}
 
+p {
+  margin: 0 0 0.75em 0;
+}
+
+a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #009eff;
+}
+
+footer {
+  font-size: .85em;
+  color: cornflowerblue;
+  background: transparent;
+  padding: 10px 10px 10px 0;
+}
 
 
