@@ -93,3 +93,20 @@ footer {
   background-image: url(../img/trinity.jpg);
 }
 
+nav a {
+  color: #f5a06e;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+  font-size: .9em;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.clear {
+  clear: both;
+  line-height: 1px;
+}
+

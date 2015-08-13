@@ -12,6 +12,13 @@ header a.logo {
   background-repeat: no-repeat;
 }
 
+nav {
+  width: 100%;
+  display: block;
+  position: absolute;
+  background-color: #a6430a;
+}
+
 /* Layout Large Screens (default for older browsers) */
 
 header {
@@ -43,4 +50,18 @@ article {
 
 .characters_container .character .content {
   padding: 0 30px 0 70px;
+}
+
+nav {
+  top: 275px;
+}
+
+nav a {
+  margin: 12px 0 10px 20px;
+}
+
+@media screen and (max-width:990px) {
+  footer {
+    padding-left: 20px;
+  }
 }
