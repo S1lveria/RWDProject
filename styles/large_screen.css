@@ -1,11 +1,46 @@
-@charset "UTF-8";
-
 /* Layout (global rules for all sizes) */
 
+body {
+  margin: 0;
+  padding: 0;
+}
 
+header a.logo {
+  display: block;
+  position: absolute;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
 
 /* Layout Large Screens (default for older browsers) */
 
+header {
+  height: 275px;
+  background: url(../img/banner_large.jpg) no-repeat right 0;
+}
 
+header .logo {
+  width: 150px;
+  height: 85px;
+  top: 28px;
+  right: 30px;
+  background-image: url(../img/logo_large.png);
+}
 
+article {
+  padding: 50px 20px 10px 20px;
+}
 
+.characters_container {
+  padding: 0 0 15px 20px;
+}
+
+.characters_container .character {
+  width: 33%;
+  float: left;
+  background-position: 0 3px;
+}
+
+.characters_container .character .content {
+  padding: 0 30px 0 70px;
+}

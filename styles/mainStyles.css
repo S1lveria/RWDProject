@@ -53,4 +53,43 @@ footer {
   padding: 10px 10px 10px 0;
 }
 
+.character a {
+  text-transform: uppercase;
+  font-size: .9em;
+  font-weight: bold;
+  margin: .5em 0 0 0;
+  padding: 0 12px 0 0;
+  background: url(../img/arrow.png) no-repeat right 1px;
+}
+
+.character a:hover {
+  background-position: right -49px;
+}
+
+.character h3 {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.character p {
+  line-height: 1.2em;
+  font-size: .9em;
+  margin-bottom: .5em;
+}
+
+.character {
+  background-repeat: no-repeat;
+}
+
+.characters_container .character:nth-child(1) {
+  background-image: url(../img/neo.jpg);
+}
+
+.characters_container .character:nth-child(2) {
+  background-image: url(../img/morpheus.jpg);
+}
+
+.characters_container .character:nth-child(3) {
+  background-image: url(../img/trinity.jpg);
+}
 
