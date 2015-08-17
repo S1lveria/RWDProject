@@ -23,7 +23,7 @@ nav {
 
 header {
   height: 275px;
-  background: url(../img/banner_large.jpg);
+  background: url(../img/banner_large.jpg) no-repeat right 0;
 }
 
 article {
