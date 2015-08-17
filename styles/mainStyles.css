@@ -21,18 +21,12 @@ h1 {
   margin: 0 0 .5em 0;
 }
 
-h2 {
-  font-size: 1.7em;
-  margin: 0 0 1em 0;
-}
-
-h3 {
-  font-size: 1.5em;
-  margin: 0 0 1em 0;
-}
-
 p {
   margin: 0 0 0.75em 0;
+}
+
+article > p {
+  text-align: justify;
 }
 
 a {
@@ -47,7 +41,6 @@ a:hover {
 footer {
   font-size: .85em;
   color: cornflowerblue;
-  background: transparent;
   padding: 10px 10px 10px 0;
 }
 
@@ -55,7 +48,6 @@ footer {
   text-transform: uppercase;
   font-size: .9em;
   font-weight: bold;
-  margin: .5em 0 0 0;
   padding: 0 12px 0 0;
   background: url(../img/arrow.png) no-repeat right 1px;
 }

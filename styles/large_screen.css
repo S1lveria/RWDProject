@@ -2,36 +2,28 @@
 
 body {
   margin: 0;
-  padding: 0;
 }
 
 header a.logo {
   display: block;
   position: absolute;
-  background-position: 0 0;
-  background-repeat: no-repeat;
+  width: 150px;
+  height: 85px;
+  top: 28px;
+  right: 30px;
+  background-image: url(../img/logo_large.png);
 }
 
 nav {
   width: 100%;
   display: block;
   position: absolute;
-  background-color: #a6430a;
+  background-color: rgba(65,26,4, 0.7);
 }
-
-/* Layout Large Screens (default for older browsers) */
 
 header {
   height: 275px;
-  background: url(../img/banner_large.jpg) no-repeat right 0;
-}
-
-header .logo {
-  width: 150px;
-  height: 85px;
-  top: 28px;
-  right: 30px;
-  background-image: url(../img/logo_large.png);
+  background: url(../img/banner_large.jpg);
 }
 
 article {
@@ -60,7 +52,7 @@ nav a {
   margin: 12px 0 10px 20px;
 }
 
-@media screen and (max-width:990px) {
+@media screen and (max-width:998px) {
   footer {
     padding-left: 20px;
   }
