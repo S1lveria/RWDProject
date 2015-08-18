@@ -1,4 +1,4 @@
-# RWDProject
+# RWD_Project
 
 A responsive web design project where I'm using css @media queries, positioning, responsive measurements (em and %) in important
 sections and etc.
